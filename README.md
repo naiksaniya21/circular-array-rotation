@@ -5,7 +5,7 @@ public class CircularArrayRotation {
         int n = arr.length;
         rotatedArray = new int[n];
         
-        // Efficient rotation
+        
         rotations %= n;
         
         for (int i = 0; i < n; i++) {
